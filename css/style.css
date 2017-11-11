@@ -58,9 +58,11 @@ h3,
 h4,
 h5 {
   padding: 10px 5%;
-
 }
 
+#education h3 {
+  padding: 20px 0 10px 0;
+}
 
 .date-text {
   font-style: italic;
@@ -76,7 +78,6 @@ h5 {
   color: #999;
   line-height: 16px;
   float: right;
-
 }
 
 p {
@@ -127,9 +128,8 @@ a {
   background-color: #4a4a4a;
 }
 
-/* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-image: linear-gradient(to bottom, grey, black, lightgrey);
 }
 
 .flex-box {
